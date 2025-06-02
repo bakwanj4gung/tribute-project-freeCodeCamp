@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*,
+body,
+h1,
+h3,
+div,
+figure,
+figcaption,
+ul,
+li,
+p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    font-family: "IBM Plex Serif", serif;
+    text-align: center;
+    padding: 15px;
+    margin: 25px 10px;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+header {
+    width: 100%;
+    padding: 30px 0;
+}
+
+header p {
+    margin-top: 20px;
+}
+
+#img-div {
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+#image {
+    max-width: 100%;
+}
+
+#img-caption {
+    margin: 15px 0 5px;
+}
+
+#tribute,
+em {
+    display: block;
+    padding: 20px 0;
+    text-align: left;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#tribute-title {
+    padding: 15px 0;
+    text-align: center;
+}
+
+#tribute-info li {
+    font-weight: bold;
+    list-style-position: inside;
+    margin: 10px 0;
+}
+
+.details {
+    font-weight: normal;
+}
+
+em p:last-child {
+    margin-top: 10px;
+}
+
+footer {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+footer a {
+    color: #477ca7;
+}
+
+footer a:visited {
+    color: #74638f;
+}
